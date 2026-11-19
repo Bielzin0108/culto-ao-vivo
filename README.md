@@ -7,7 +7,7 @@ npm install
 npm run dev
 ```
 
-Abra http://localhost:3000.
+Abra http://localhost:3000 para o painel publicado pelo Next.js. O painel de controle completo fica em `/controle/index.html` e o telão em `/controle/stage.html`.
 
 ## API da Bíblia
 
