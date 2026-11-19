@@ -1,3 +1,4 @@
+localStorage.removeItem('culto-stage');localStorage.setItem('culto-camera','off');localStorage.setItem('culto-stage-event',Date.now());
 const bible=[{book:'João',chapter:3,verse:16,text:'Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.'},{book:'Salmos',chapter:23,verse:1,text:'O Senhor é o meu pastor; nada me faltará.'},{book:'Filipenses',chapter:4,verse:13,text:'Posso todas as coisas naquele que me fortalece.'}];
 let songs=JSON.parse(localStorage.getItem('culto-songs')||'null')||[{title:'Exemplo de louvor',lyrics:'Adicione aqui a letra autorizada para começar o repertório.'}];
 const $=id=>document.getElementById(id); const saveState=x=>localStorage.setItem('culto-stage',JSON.stringify(x)); let stageWindow=null;
