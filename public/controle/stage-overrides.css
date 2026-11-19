@@ -1,2 +1,4 @@
 .stage-content h1{font-size:48px}
+.stage-camera{display:none;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000}
+.stage.camera-active .stage-camera{display:block}.stage.camera-active .stage-bg{display:none}
 @media(max-width:850px){.stage-content h1{font-size:8vw}}
