@@ -19,6 +19,9 @@ Crie `.env.local` a partir de `.env.example` e informe `BIBLE_API_KEY` e `BIBLE_
 - `GET /api/bible/search?q=...`
 - `GET /api/bible/passages/{passageId}`
 - `GET /api/songs?q=...`
+- `GET /api/harpa/{numero}` (proxy do hino escolhido, de 1 a 640)
+
+A rota da Harpa consulta a API pública indicada em https://www.harpacrista.org/ (`api.harpacrista.org`) somente quando o operador escolhe um número. O projeto não replica o banco inteiro; isso mantém os dados atualizados e respeita a fonte original.
 - `POST /api/songs` com `{ "title", "lyrics", "artist", "license" }`
 - `GET /api/texts`
 - `POST /api/texts` com `{ "type", "text", "reference", "font", "model" }`
