@@ -1,0 +1,1 @@
+document.getElementById('startCamera')?.addEventListener('click',()=>{if(document.pictureInPictureElement&&document.exitPictureInPicture)document.exitPictureInPicture().catch(()=>{})},{capture:true});
