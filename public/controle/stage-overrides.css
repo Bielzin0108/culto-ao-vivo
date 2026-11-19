@@ -1,0 +1,2 @@
+.stage-content h1{font-size:48px}
+@media(max-width:850px){.stage-content h1{font-size:8vw}}
