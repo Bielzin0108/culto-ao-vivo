@@ -1,1 +1,1 @@
-document.getElementById('startCamera')?.addEventListener('click',()=>{if(document.pictureInPictureElement&&document.exitPictureInPicture)document.exitPictureInPicture().catch(()=>{})},{capture:true});
+document.getElementById('startCamera')?.addEventListener('click',()=>{if(document.pictureInPictureElement&&document.exitPictureInPicture)document.exitPictureInPicture().catch(()=>{});localStorage.setItem('culto-camera','on');localStorage.setItem('culto-stage-event',Date.now())},{capture:true});
